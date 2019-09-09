@@ -410,7 +410,7 @@ var county_coords = [
 ];
         
 // Construct the polygon.
-/*var county_border = new google.maps.Polygon({
+var county_border = new google.maps.Polygon({
   paths: county_coords,
   strokeColor: '#FF0000',
   strokeOpacity: 0.8,
@@ -418,7 +418,7 @@ var county_coords = [
   fillColor: '#FFFFFF',
   fillOpacity: 0.1
 });
-county_border.setMap(map);*/
+county_border.setMap(map);
 
   var layer = new google.maps.FusionTablesLayer({
     query: {
