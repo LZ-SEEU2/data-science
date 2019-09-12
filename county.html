@@ -9,55 +9,14 @@
       #map {
         height: 100%;
       }
-      /* Optional: Makes the sample page fill the window. */
       html, body {
         height: 100%;
         margin: 0;
         padding: 0;
       }
-      #floating-panel {
-        position: absolute;
-        top: 10px;
-        left: 190px;
-        z-index: 5;
-        background-color: #ccc;
-        text-align: center;
-        font-family: 'Roboto','sans-serif';
-        line-height: 30px;
-        border-radius: 2px;
-      }
-      #floating-panel > button{
-        margin: 0;
-        border:0;
-          direction: ltr;
-          overflow: hidden;
-          text-align: center;
-          height: 40px;
-          display: table-cell;
-          vertical-align: middle;
-          position: relative;
-          color: #565656;
-          font-family: Roboto, Arial, sans-serif;
-          user-select: none;
-          font-size: 18px;
-          background-color: rgb(255, 255, 255);
-          padding: 0px 17px;
-          border-bottom-right-radius: 2px;
-          border-top-right-radius: 2px;
-          background-clip: padding-box;
-          box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
-          min-width: 66px;
-          border-left: 0px;
-      }
     </style>
   </head>
   <body>
-    <div id="floating-panel" class="gm-style-mtc">
-      <!-- <button onclick="toggleHeatmap()" role="button">Toggle Heatmap</button
-      ><button onclick="changeOpacity()" role="button">Change opacity</button> -->
-      <!-- <button onclick="changeGradient()">Change gradient</button> -->
-      <!-- <button onclick="changeRadius()">Change radius</button> -->
-    </div>
     <div id="map"></div>
     <script>
 // This example requires the Visualization library. Include the libraries=visualization
